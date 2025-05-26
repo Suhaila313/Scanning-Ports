@@ -50,6 +50,8 @@ Port 22 (SSH) can be brute-forced if passwords are weak.
 Port 445 (SMB) often targeted in ransomware attacks.
 PostgreSQL should not be exposed to the internet.
 
+---
+
 Outcome
 
 By completing this task, I gained hands-on experience in network reconnaissance using Nmap. I also developed an understanding of:
