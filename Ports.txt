@@ -1,0 +1,9 @@
+| Port | Common Service | Description                                                    |
+| ---- | -------------- | -------------------------------------------------------------- |
+| 22   | SSH            | Secure remote login to a machine. Can be brute-forced if open. |
+| 135  | MSRPC          | Microsoft RPC, used for Windows networking.                    |
+| 445  | Microsoft-DS   | SMB file sharing, often targeted by attacks.                   |
+| 5432 | PostgreSQL     | Database service, might be vulnerable if exposed.              |
+| 8000 | HTTP-alt       | Alternative HTTP server port.                                  |
+| 8088 | Radan HTTP     | Could be custom web service; check for vulnerabilities.        |
+| 8089 | Unknown        | Not standard, could be custom or development service.          |
